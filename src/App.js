@@ -12,18 +12,18 @@ import Users from './pages/Users'
 
 function App() {
   return (
-    <TemplateDefault>
       <Router>
-        <Switch>
-            <Route path="/users"> 
-              <TemplatePage title="Users" Component={Users} />
-            </Route>
-            <Route path="/"> 
-            <TemplatePage title="Home" Component={Home} />
-            </Route>
-        </Switch>
+        <TemplateDefault>
+          <Switch>
+              <Route path="/users"> 
+                <TemplatePage title="Users" Component={Users} />
+              </Route>
+              <Route path="/"> 
+              <TemplatePage title="Home" Component={Home} />
+              </Route>
+          </Switch>
+        </TemplateDefault>
       </Router>
-    </TemplateDefault>
   );
 }
 

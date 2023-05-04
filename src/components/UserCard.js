@@ -1,3 +1,4 @@
+
 import { makeStyles } from '@mui/styles'
 import classNames from 'classnames'
 
@@ -8,7 +9,7 @@ import {
   Avatar,
 } from '@mui/material/'
 
-import IconButton, { IconButtonProps } from '@mui/material/IconButton'
+import IconButton from '@mui/material/IconButton'
 import FavoriteIcon from '@mui/icons-material/Favorite'
 import ShareIcon from '@mui/icons-material/Share'
 
